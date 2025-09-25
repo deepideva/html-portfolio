@@ -1,89 +1,161 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganesh Profile</title>
-    <style> 
-        body { 
-            background: linear-gradient(to right, lightblue, pink);
-        } 
-        h1 {
-            color: white;
-            background-color: #044c06;
-            padding: 10px;
-        }
-         
-        h2 {
-            color: #b2630f;            
-        }
-        #sub {
-            color: #053418;
-            font-weight: bold;
-            font-style: normal;           
-        }
-    </style> 
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ganesh Babu V - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #004080;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .contact {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      margin: 5px 0 10px 20px;
+    }
+    .declaration {
+      margin-top: 30px;
+      font-style: italic;
+    }
+  </style>
 </head>
 <body>
-    <h1>Ganesh's Portfolio</h1>
-    <p>Hi, I'm Ganeshbabu V - A Daily Learner aspiring to master full-stack development and host innovative projects on GCP and GitHub.</p>
-    <hr>
-    <h2>About Me</h2>
-    <ul>
-        <li id="sub"> Introduction </li>
-        <p> I'm Ganeshbabu V, a tech enthusiast with a passion for continuous learning and development. With a strong background in leadership and production support, I am now transitioning to full-stack development to create impactful solutions.</p>
-        <li id="sub">Career Goals:</li>
-        <p>Short-term: Enhance my technical skills in full-stack development.
-        <br>
-        Long-term: Build scalable applications hosted on GCP and GitHub.</p>
-        <li id="sub"> Interests</li>
-        <p> Watching Movies <br> Playing with my Kids</p>
-    </ul>
-    <h2>Projects</h2>
-    <ul>
-        <li><a href="bday.html" target="_blank"> Birthday Invite Project</a></li> 
-        <p>A web-based application to create and share birthday invitations.</p>
-        <ul>
-            <li id="sub"> Technologied Used</li>
-            <p> HTML, CSS, GCP VM for hosting</p>
-        </ul>
-    </ul>
-    <h2>skills</h2>
-    <ul>
-        <li id="sub">Technical Skills</li>
-        <ul>
-            <li>Google Cloud Infrastructure</li>
-            <li> HTML, CSS</li>
-            <li> Python Basics</li>
-        </ul>
-        <li id="sub">Non-Technical Skills</li>
-        <ul>
-            <li> Leadership - Production Support L2</li>
-            <li> Problem Solving</li>
-            <li> Communication</li>
-    </ul>
-</ul>
-    <h2>Contact</h2>
-    <ul>
-        <li>Email: ganeshdeepideva@gmail.com</li>
-        <li>Website: <a href="https://www.deepideva.in" target="_blank">www.deepideva.in</a></li>
-    
+  <div class="container">
+    <h1>GANESH BABU V</h1>
+    <div class="contact">
+      📧 <a href="mailto:ganeshdeepideva@hotmail.com">ganeshdeepideva@hotmail.com</a> | 
+      🌐 <a href="https://www.deepideva.in" target="_blank">www.deepideva.in</a> | 
+      💻 <a href="https://github.com/deepideva" target="_blank">GitHub</a><br>
+      📞 +91 8015429586 | Married | Chennai, India
+    </div>
+
+    <div class="section">
+      <h2>Objective</h2>
+      <p>Cloud Engineer with 13+ years of experience in IT, focusing mainly on Google Cloud Platform and DevOps practices. Daily working on automation, monitoring, and deployments. I enjoy learning new cloud technologies and applying them in real projects as well as my own website. Always ready for the next challenge in AI and DevOps.</p>
+    </div>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <ul>
+        <li>Working as Technical Lead at TCS, managing a 20-member team on DevOps process.</li>
+        <li>Experience leading Google Cloud projects to improve system reliability and business delivery.</li>
+        <li>Main skills: Deployments, Infrastructure as Code, Automation using Python, Kubernetes setup, and troubleshooting.</li>
+        <li>Daily using Terraform, GitHub actions, Spinnaker deploy, Prometheus, Grafana, Looker, and ServiceNow for monitoring and support.</li>
+        <li>Practicing DevOps and automation principles every day on business projects and my personal website.</li>
+        <li>Awarded for quick delivery and reliability in services.</li>
+        <li>Supporting and mentoring team on cloud tech stack.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+      <h3>Tata Consultancy Services (2014 – Present)</h3>
+      <p><strong>Project: THE HOME DEPOT (July 2023 – Present)</strong><br>Role: Infrastructure & DevOps Engineering</p>
+      <ul>
+        <li>Managing live environments for enterprise clients using GCP, Prometheus, Grafana, and Kubernetes.</li>
+        <li>Production deployments using Spinnaker and GitHub Actions.</li>
+        <li>Automating cloud tasks using Terraform and shell/python scripts.</li>
+        <li>Building dashboards and reports in Looker for analytics.</li>
+        <li>Daily monitoring and incident support via ServiceNow.</li>
+        <li>Teaching and helping team in cloud and DevOps concepts.</li>
+      </ul>
+      <p><em>Achievements: Received On-the-Spot Awards and financial rewards via TCS Wings2 program.</em></p>
+
+      <p><strong>Project: CITIBANK (June 2017 – June 2023)</strong><br>Role: L2 Production Support Lead</p>
+      <ul>
+        <li>Supported applications across UAE, Bahrain, and UK regions.</li>
+        <li>Led collaboration with server, DBA, and infra teams.</li>
+        <li>Managed deployments via Autosys, RLM, Jenkins.</li>
+        <li>Conducted successful yearly Disaster Recovery simulations to ensure Holiday readiness.</li>
+      </ul>
+      <p><em>Achievements: Multiple Spot Awards for timely incident resolution and DR completion.</em></p>
+
+      <p><strong>Project: Honeywell Inc. (Aug 2014 – May 2017)</strong><br>Role: Production Support Engineer</p>
+      <ul>
+        <li>Supported Primavera applications and infrastructure. Handled environment setup, user access, OBS, EPS, and baselining.</li>
+      </ul>
+      <p><em>Achievements: Recognized for quick resolution and customer satisfaction.</em></p>
+
+      <p><strong>Previous Roles</strong></p>
+      <ul>
+        <li>Project Planner Assistant/Tender Estimator, Chiniwalas Pvt Ltd, Pune (2011 – 2014)</li>
+        <li>Senior PPM Consultant, CADD Centre, Mylapore (2010 – 2011)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Cloud Platforms: Google Cloud Platform, Azure</li>
+        <li>Automation: Python, Bash, Terraform, GitHub Actions</li>
+        <li>Monitoring & Dashboards: Prometheus, Grafana, Google Cloud Monitoring, Looker</li>
+        <li>CI/CD & Deployments: Spinnaker, GitHub Actions</li>
+        <li>Incident Management: ServiceNow, New Relic</li>
+        <li>Web Hosting: Flask, Ubuntu/Linux, DNS (GoDaddy), domain setup</li>
+        <li>Other Tools: Kubernetes, Oracle SQL, SQL Server, Autosys, Jenkins</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Google Cloud GenAI Leader (Cleared in 2025)</li>
+        <li>Preparing for Google Cloud Intelligent Search and Cloud Build with Vertex AI badges (in progress, 2025)</li>
+        <li>GCP Professional Cloud Architect</li>
+        <li>Microsoft Azure Administrator</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Personal Projects & Activities</h2>
+      <ul>
+        <li>Developing and hosting my own website on GCP for technical blogging and experiments (<a href="https://www.deepideva.in">deepideva.in</a>).</li>
+        <li>Exploring GenAI, Vertex AI, Cloud Build, and Search AI solutions and implementing them in personal projects.</li>
+        <li>Active on GitHub (<a href="https://github.com/deepideva">deepideva</a>) – sharing scripts, infra code, and experiments.</li>
+        <li>Creating how-to videos and troubleshooting tips on YouTube (KidsTech1518).</li>
+        <li>Continuously learning latest Google Cloud and AI solutions, and applying them to solve real problems.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>MCA, SASTRA UNIVERSITY, Thanajvur, TN, 2009, CGPA: 7.4</li>
+        <li>B.Sc. Physics, Bishop Heber College, Trichy, 2006, Score: 62%</li>
+        <li>HSC, St. Antony’s Matric Hr. Sec. School, Vedaraniam, 2003, Score: 69%</li>
+      </ul>
+    </div>
+
+    <div class="section declaration">
+      <p>I hereby declare that the above details are true to the best of my knowledge and belief.</p>
+      <p>Place: Chennai-Thiruporur<br>V. Ganeshbabu</p>
+    </div>
+  </div>
 </body>
 </html>
